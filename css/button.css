@@ -1,0 +1,115 @@
+#add     /*add*/
+{
+    height: 30px;
+    width: 75px;
+    background-color: #5cb85c;
+    color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+#del     /*delete*/
+{
+    height: 30px;
+    width: 75px;
+    background-color: #d9534f;
+    color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+#previous    
+{
+    height: 30px;
+    width: 75px;
+    background-color: #5cb85c;
+    color: white;
+    border: 1px solid black;
+    float: right;
+}
+#next  
+{
+    height: 30px;
+    width: 75px;
+    background-color: #d9534f;
+    color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: right;
+}
+#examine     
+{
+    font-size: 16px;
+    height: 20px;
+    border: none;
+    color: red;
+    background: none;
+    /*background-color: #eef1f8;*/
+}
+#update   
+{
+    font-size: 16px;
+    height: 20px;
+    border: none;
+    color: red;
+    background: none;
+    /*background-color: #eef1f8;*/
+}
+#submit    
+{
+    height: 30px;
+    width: 75px;
+    background-color: #5cb85c;
+    color: black;
+    border: 1px solid #dadee1;
+}
+#addCancel   
+{
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    border: 1px solid #dadee1;
+    margin-left: 5px;
+}
+#preservation   
+{
+    height: 30px;
+    width: 75px;
+    background-color: #5cb85c;
+    color: black;
+    border: 1px solid #dadee1;
+}
+#updateCancel    
+{
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    border: 1px solid #dadee1;
+    margin-left: 5px;
+}
+#examineCancel    
+{
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    border: 1px solid #dadee1;
+    /*margin-left: 5px;*/
+}
+#confirm  
+{
+    height: 30px;
+    width: 75px;
+    background-color: #5cb85c;
+    color: black;
+    border: 1px solid #dadee1;
+}
+#delCancel 
+{
+    height: 30px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    border: 1px solid #dadee1;
+    margin-left: 5px;
+}

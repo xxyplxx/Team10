@@ -1,0 +1,128 @@
+/*Total*/
+#total
+{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f0ece9;
+    border-top: 8px #f0ece9 solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*First row (Market)*/
+#top
+{
+    height: 40px;
+}
+
+.headerLine
+{
+    width: 400px;
+    display: inline;
+    color: #c3a080;
+    font-size: 25px;
+}
+
+#header
+{
+    width: 400px;
+    display: inline;
+    color: #9ea09e;
+    font-size: 20px;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+/*Second row (buttons)*/
+#second
+{
+    height: 50px;
+    text-align: left;
+}
+
+/*Third row (body)*/
+#main
+{
+}
+
+#main thead
+{
+    text-align: center;
+}
+#main thead tr
+{
+    background-color: #dadee1;
+    height: 40px;
+}
+
+.mainTbodyTr1
+{
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+.mainTbodyTr2
+{
+    height: 30px;
+    background-color: #eef1f8;
+    text-align: center;
+}
+
+.col1
+{
+    width: 180px;
+}
+
+.col2
+{
+    width: 180px;
+}
+
+.col3
+{
+    width: 180px;
+}
+
+.col4
+{
+    width: 180px;
+}
+
+.col5
+{
+    width: 180px;
+}
+
+.col6
+{
+    width: 180px;
+}
+
+.col7
+{
+    width: 180px;
+}
+#final
+{
+    margin-top: 40px;
+    height: 40px;
+}
+#final p
+{
+    display: inline;
+}
+
+#totalBackground{
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid #dadee1;*/
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c4c2c1;
+    z-index:1;
+    /*-moz-opacity: 0.8;*/
+    opacity:.8;
+    /*filter: alpha(opacity=88);*/
+}
