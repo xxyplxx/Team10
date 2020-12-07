@@ -1,0 +1,59 @@
+/*Add Frame*/
+#addBlock
+{
+    width: 420px;
+    height: 400px;
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    background-color: white;
+    border-radius: 5px;
+    z-index:2;
+    /*overflow: auto;*/
+}
+
+/*Add frame Header*/
+#addHeader
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /*display: table-row;*/
+}
+
+/*Add frame body*/
+#addMain
+{
+    height: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dadee1;
+}
+#addMain table
+{
+    width: 400px;
+}
+#addMain tr
+{
+    height: 40px;
+}
+.addTableTd1
+{
+    padding-left: 15px;
+    width: 120px;
+    text-align: right;
+}
+.addTableTd2
+{
+    padding-left: 20px;
+    width: 250px;
+    text-align: left;
+}
+.addTableTd2 input
+{
+    width: 150px;
+}
