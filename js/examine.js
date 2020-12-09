@@ -14,7 +14,6 @@ function examine(obj) {
     document.getElementById('name3').value = iTds[2].innerText;
     document.getElementById('type3').value = iTds[3].innerText;
     document.getElementById('expdate3').value = iTds[4].innerText;
-    document.getElementById('price3').value = iTds[5].innerText;
 }
 
 // 'Cancel' button in examine frame
