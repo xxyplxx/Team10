@@ -1,4 +1,4 @@
-// uodate button
+// update button
 function update(obj) {
     // open update frame
     document.getElementById('updateBlock').style.display = 'block';
@@ -14,7 +14,6 @@ function update(obj) {
     document.getElementById('name2').value = iTds[2].innerText;
     document.getElementById('type2').value = iTds[3].innerText;
     document.getElementById('expdate2').value = iTds[4].innerText;
-    document.getElementById('price2').value = iTds[5].innerText;
 
 }
 
@@ -24,7 +23,6 @@ function preservation() {
     iTds[2].innerText = document.getElementById('name2').value;
     iTds[3].innerText = document.getElementById('type2').value;
     iTds[4].innerText = document.getElementById('expdate2').value;
-    iTds[5].innerText = document.getElementById('price2').value;
 
     // close update frame
     document.getElementById('updateBlock').style.display = 'none';
