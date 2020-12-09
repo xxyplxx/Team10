@@ -18,7 +18,6 @@ function sumbit() {
     var name = document.getElementById('name1').value;
     var type = document.getElementById('type1').value;
     var expdate = document.getElementById('expdate1').value;
-    var price = document.getElementById('price1').value;
     var nums = iTable.rows.length;
 
     // create a row tr
@@ -64,10 +63,6 @@ function sumbit() {
 
     var iTd6 = document.createElement('td');
     iTd6.className = "col6";
-    iTd6.appendChild(document.createTextNode(price));
-
-    var iTd7 = document.createElement('td');
-    iTd7.className = "col7";
 
     var examine = document.createElement('input');
     examine.id = 'examine';
@@ -80,8 +75,8 @@ function sumbit() {
     update.setAttribute('type','button');
     update.setAttribute('value','Update');
     update.setAttribute('onclick','update(this)');
-    iTd7.appendChild(examine);
-    iTd7.appendChild(update);
+    iTd6.appendChild(examine);
+    iTd6.appendChild(update);
 
     // add cell to the row
     iTr.appendChild(iTd1);
@@ -90,7 +85,6 @@ function sumbit() {
     iTr.appendChild(iTd4);
     iTr.appendChild(iTd5);
     iTr.appendChild(iTd6);
-    iTr.appendChild(iTd7);
 
     // Initializes the input box value in the new frame
     document.getElementById('name1').value = null;
