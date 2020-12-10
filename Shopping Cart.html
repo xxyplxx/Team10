@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="css/shop.css" type="text/css">
+</head>
+<body>
+	<div id="total">
+    <div id="top">
+        <div class="headerLine">————————————————</div>
+        <div id="header">Shopping Cart</div>
+        <div class="headerLine">————————————————</div>
+    </div>
+
+	<div id="totalBackground"></div>
+<nav>
+  Cart Total: €<span id="cart-total">0</span>
+  <button onclick="viewCart()"id="Cart">Show/Hide</button>
+</nav>
+
+<div id="cart-breakdown-container">
+  <table id="cart-breakdown">
+    <tr>
+      <th>Quantity</th>
+      <th>Product</th>
+    </tr>
+  </table>
+</div>
+
+<div class="products">
+  <div class="product" id="1">
+    <p>Gift</p>
+    €<span>20.00</span>
+    <br>
+    <button onclick="addCart(this.parentNode.id)"id='B'>Add to cart</button>
+  </div>
+
+  <div class="product" id="2">
+    <p>Luxury</p>
+    €<span>50.00</span>
+    <br>
+    <button onclick="addCart(this.parentNode.id)"id='C'>Add to cart</button>
+  </div>
+
+  <div class="product" id="3">
+    <p>Essential</p>
+    €<span>30.00</span>
+    <br>
+    <button onclick="addCart(this.parentNode.id)"id='D'>Add to cart</button>
+  </div>
+</div>
+</body>
+</html>
