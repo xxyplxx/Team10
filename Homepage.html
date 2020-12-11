@@ -1,32 +1,32 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<style>
-.button {
-	background-color : #4CAF50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text:align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-}
-
-.button2 {background-color: #008CBA;}
-</style>
+	<meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/homepage.css" type="text/css">
+    <link rel="stylesheet" href="css/button.css" type="text/css">
 </head>
-<body>
-<h2>Home Page</h2>
-<p> Which Page would you like to access?</p>
-<a href="index.html">
-<button class ="button">Stock Control Page</button>
-</a>
 
-<a href="Cart.html">
-<button class = "button button2">Shopping cart</button>
-</a>
+<body>
+<div id='total'>
+	<div id='top'>
+		<div class="headerLine">————————————————</div>
+        <div id="header">Homepage</div>
+        <div class="headerLine">————————————————</div>
+    </div>
+
+    <div id='second'>
+    	<p> Which Page would you like to access?</p>
+    	<br/>
+    	<a href="index.html">
+		<button id='stockcontrol' class ="button">Stock Control Page</button>
+		</a>
+		<a href="Shopping Cart.html">
+		<button id='cart' class = "button">Shopping cart</button>
+		</a>	
+	<div id="totalBackground"></div>
+	</div>
+</div>
+
 </body>
 </html>
