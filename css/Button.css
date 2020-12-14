@@ -16,6 +16,7 @@
     border: 1px solid black;
     margin-left: 5px;
 }
+
 #viewall 	/*View All*/
 {
 	height: 30px;
@@ -25,7 +26,7 @@
     border: 1px solid black;
     margin-left: 5px;
 }
-	
+
 #previous    
 {
     height: 30px;
@@ -121,5 +122,34 @@
     background-color: white;
     color: black;
     border: 1px solid #dadee1;
+    margin-left: 5px;
+}
+
+#stockcontrol  
+{
+    height: 70px;
+    width: 120px;
+    background-color: #6495ED;
+    color: F0F8FF;
+    border: 1px solid black;
+    margin-left: 2px;
+}
+
+#cart 
+{
+    height: 70px;
+    width: 120px;
+    background-color: #6495ED;
+    color: F0F8FF;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+#GoBack
+{
+    height: 30px;
+    width: 70px;
+    background-color: #6495ED;
+    color: F0F8FF;
+    border: 1px solid black;
     margin-left: 5px;
 }
