@@ -92,4 +92,12 @@
     padding-left: 112px;
     padding-right: 112px;
 }
-
+#GoBack
+{
+    height: 30px;
+    width: 70px;
+    background-color: #6495ED;
+    color: F0F8FF;
+    border: 1px solid black;
+    margin-left: 5px;
+}
